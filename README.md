@@ -25,8 +25,9 @@ install_github("tengmx/gcapc")
 
 Alternatively, installation through Bioconductor is as simple as follows.
 ```s
-source("https://bioconductor.org/biocLite.R")
-biocLite("gcapc")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("gcapc")
 ```
 
 ### Using *gcapc*
