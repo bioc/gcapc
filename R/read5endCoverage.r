@@ -27,7 +27,7 @@
 #' \item{fwd}{Coverage object for forward strand.}
 #' \item{rev}{Coverage object for reverse strand.}
 #'
-#' @import GenomeInfoDb
+#' @import Seqinfo
 #' @import S4Vectors
 #' @import IRanges
 #' @import GenomicRanges
